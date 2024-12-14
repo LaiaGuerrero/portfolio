@@ -1,0 +1,2 @@
+- Hacer la pagina de proyecto
+- Mirar como puedo meter lo de figma en la web

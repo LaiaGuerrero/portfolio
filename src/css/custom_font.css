@@ -1,0 +1,45 @@
+/* Space Grotesk */
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('../../resource/font/Space_Grotesk/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('../../resource/font/Space_Grotesk/SpaceGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('../../resource/font/Space_Grotesk/SpaceGrotesk-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* DM Sans */
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('../../resource/font/DM_Sans/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('../../resource/font/DM_Sans/DMSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('../../resource/font/DM_Sans/DMSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
