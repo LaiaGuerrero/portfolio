@@ -298,6 +298,10 @@ footer h2 {
     .footer-content {
         grid-column: 2;
     }
+
+    .footer-made-with-love {
+        right: 20px;
+    }
     
 }
 
