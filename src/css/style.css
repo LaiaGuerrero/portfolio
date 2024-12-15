@@ -12,6 +12,7 @@ body {
 
 p, li {
     font-family: 'DMSans', sans-serif;
+    margin-bottom: 8px; 
 }
 
 h1 {

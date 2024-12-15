@@ -1,2 +1,17 @@
 - Hacer la pagina de proyecto
 - Mirar como puedo meter lo de figma en la web
+- Unificar las tarjetas y poner sombritas
+- Cambiar los elemetos de higlight al mismo color (rosa clarito)
+
+
+TODO LAIAG
+- Cover proyectos
+- imagen design process
+- imagen resumen
+- grafico popular culinary offer
+- moodboard
+- logo sketches
+- final design typography añadir fondo
+- pos elements añadir titulo
+- instagram
+- carrusel exportar imagenes
