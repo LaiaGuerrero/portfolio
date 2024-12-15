@@ -220,6 +220,7 @@ footer h2 {
     /* General */
     body {
         row-gap: 2%;
+        grid-template-columns: 0% repeat(12, 1fr) 0%;
     }
 
 
@@ -247,7 +248,8 @@ footer h2 {
     header {
         flex-direction: row-reverse;
         align-items: center;
-        padding: 18px 8%;
+        padding: 18px 1%;
+        padding-right: 1.7%;
     }
 
     .navigation {
@@ -290,11 +292,15 @@ footer h2 {
 
     /* Footer */
     footer {
-        grid-template-columns: 8% 1fr 8%;
+        grid-template-columns: 0% 1fr 0%;
     }
 
     .footer-content {
         grid-column: 2;
+    }
+
+    .footer-made-with-love {
+        right: 20px;
     }
     
 }
