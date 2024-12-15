@@ -15,3 +15,21 @@ TODO LAIAG
 - pos elements añadir titulo
 - instagram
 - carrusel exportar imagenes
+- exportar logo sin margen
+
+CASA HERRERA SEMINAR
+Imatges:
+- Web CH (brand guidelines)
+- Espai Corberó
+- attendees
+- user persona
+- concept website (moodboard simpple)
+- logo design
+- color palette cmyk
+- tipography
+- estilo ilustracion
+-color palette rgb
+- graphics / animations
+- user flow
+test 2 options --> pasarlo a porcentajes + imatges
+final design
