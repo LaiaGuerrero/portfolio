@@ -8,6 +8,8 @@ TODO LAIAG
 - Cover proyectos
 - imagen design process
 - imagen resumen
+
+CROQUETEO
 - grafico popular culinary offer
 - moodboard
 - logo sketches
@@ -33,3 +35,17 @@ Imatges:
 - user flow
 test 2 options --> pasarlo a porcentajes + imatges
 final design
+
+FOODLE
+video resumen --> redonedear bordes = que img
+Imatges:
+- Affinity diagram --> no se lee los post it, rediseñar imagen
+- User persona
+- 1st idea
+- mobile vs desktop
+- sketch wireframe
+- most wasted Food
+- preferred learning format
+- prototyping
+- final design
+- prototype final
