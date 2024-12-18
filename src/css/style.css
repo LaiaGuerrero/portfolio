@@ -184,7 +184,7 @@ footer {
     grid-column: 2 / span 6;
 }
 
-footer h2 {
+.footer h2 {
     margin: 0;
     font-size: 1.5rem;
 }

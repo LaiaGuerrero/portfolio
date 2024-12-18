@@ -8,6 +8,8 @@ TODO LAIAG
 - Cover proyectos
 - imagen design process
 - imagen resumen
+
+CROQUETEO
 - grafico popular culinary offer
 - moodboard
 - logo sketches
@@ -15,3 +17,35 @@ TODO LAIAG
 - pos elements añadir titulo
 - instagram
 - carrusel exportar imagenes
+- exportar logo sin margen
+
+CASA HERRERA SEMINAR
+Imatges:
+- Web CH (brand guidelines)
+- Espai Corberó
+- attendees
+- user persona
+- concept website (moodboard simpple)
+- logo design
+- color palette cmyk
+- tipography
+- estilo ilustracion
+-color palette rgb
+- graphics / animations
+- user flow
+test 2 options --> pasarlo a porcentajes + imatges
+final design
+
+FOODLE
+video resumen --> redonedear bordes = que img
+Imatges:
+- Affinity diagram --> no se lee los post it, rediseñar imagen
+- User persona
+- 1st idea
+- mobile vs desktop
+- sketch wireframe
+- most wasted Food
+- preferred learning format
+- prototyping
+- final design
+- prototype final
