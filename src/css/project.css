@@ -93,6 +93,12 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+.progress-bar {
+    display: none;
+    height: 4px;
+    background-color: #A1D9F5;
+    transition: width 0.1s ease;
+}
 
 .content-section {
     margin-bottom: 5%;
@@ -258,6 +264,10 @@ h1, h2, h3, h4, h5, h6, p {
 
     .content-index {
         display: none;
+    }
+
+    .progress-bar {
+        display: block;
     }
 
     .content-content {

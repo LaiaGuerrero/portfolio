@@ -36,13 +36,18 @@ h3 {
 header {
     grid-column: 1 / span 14;
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    flex-direction: column;
+}
+
+.header-item {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 8%;
     background-color: #302E87;
-    position: sticky;
-    top: 0;
-    z-index: 2;
 }
 
 .btn-header {
@@ -245,7 +250,7 @@ footer h2 {
         z-index: 4; /* Ensure it is above the menu */
     }
 
-    header {
+    .header-item {
         flex-direction: row-reverse;
         align-items: center;
         padding: 18px 1%;
