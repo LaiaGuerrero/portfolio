@@ -7,17 +7,22 @@
 TODO LAIAG
 - Cover proyectos
 - imagen design process
-- imagen resumen
+- imagen/video resumen
+- carrusel exportar imagenes
+- exportar logo sin margen
 
 CROQUETEO
-- grafico popular culinary offer
-- moodboard
+- grafico popular culinary offer MOBILE
+- REFERENCES MOBILE treure divas pop
 - logo sketches
 - final design typography añadir fondo
 - pos elements añadir titulo
 - instagram
-- carrusel exportar imagenes
-- exportar logo sin margen
+- foto postureo food i target unidos
+foto logo monogram unidos
+cambiar design system for identity system
+añadir monogram y logo slide
+
 
 CASA HERRERA SEMINAR
 Imatges:
@@ -37,15 +42,28 @@ test 2 options --> pasarlo a porcentajes + imatges
 final design
 
 FOODLE
-video resumen --> redonedear bordes = que img
+video resumen --> redonedear bordes = que img MOBIL
 Imatges:
 - Affinity diagram --> no se lee los post it, rediseñar imagen
-- User persona
-- 1st idea
-- mobile vs desktop
+- usef flow 1st idea --> mes gran
+- Text 2nd round of interviews 
 - sketch wireframe
-- most wasted Food
-- preferred learning format
+- iconos fruits & vegetables
+- user flow
 - prototyping
 - final design
 - prototype final
+
+ABOVE THE STARS IMAGES
+- CND
+- parteno
+- concepts
+- dior
+-zodiac theme campaigns
+target
+user persona
+cielo estrellado
+visual style revisar (define/ideate)
+moodboard
+logo sketches
+
