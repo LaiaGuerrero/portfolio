@@ -12,13 +12,12 @@
 
     <script src="../../js/header.js" defer></script>
     <script src="../../js/project.js" defer></script>
-    <script src="../../js/progress_bar.js" defer></script>
 </head>
 <body>
     <body>
         <header>
             <div class="header-item">
-                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                <button id="btn-header-menu" class="menu-toggle" onclick="toggleMenu()">☰</button>
                 <div class="logo">
                     <a href="../../../index.html"><img src="../../../resource/img/logo/logo_white.svg" alt="Logo"></a>
                 </div>
@@ -30,7 +29,11 @@
                     </ul>
                 </nav>
             </div>
-            <div class="progress-bar"></div>
+            <div class="header-item subheader">
+                <h2 id="current-section-text">Categoria</h2>
+                <button id="btn-header-submenu" class="menu-toggle Submenu-toggle" onclick="toggleSubMenu()">v</button>
+                <nav class="navigation subheader"></nav>
+            </div>
         </header>
 
     <main>

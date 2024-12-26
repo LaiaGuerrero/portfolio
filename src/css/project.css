@@ -15,6 +15,20 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+.subheader {
+    display: none;
+    background-color: #A1D9F5;
+}
+
+.subheader a {
+    color: #302E87;
+    font-weight: 500;
+}
+
+.subheader a:hover {
+    font-weight: 700;
+}
+
 .highlighted-text {
     background-color: #a1d9f5;
     padding: 0px 2px;
@@ -91,13 +105,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .intro-right-item p {
     margin: 0;
-}
-
-.progress-bar {
-    display: none;
-    height: 4px;
-    background-color: #A1D9F5;
-    transition: width 0.1s ease;
 }
 
 .content-section {
@@ -271,8 +278,11 @@ h1, h2, h3, h4, h5, h6, p {
         display: none;
     }
 
-    .progress-bar {
-        display: block;
+    .subheader {
+        display: flex;
+        flex-flow: row;
+        padding: 6px 3%;
+        padding-right: 1.7%;
     }
 
     .content-content {
