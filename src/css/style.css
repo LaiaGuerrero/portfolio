@@ -253,7 +253,7 @@ footer {
     .header-item {
         flex-direction: row-reverse;
         align-items: center;
-        padding: 18px 1%;
+        padding: 18px 3%;
         padding-right: 1.7%;
     }
 
