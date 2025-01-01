@@ -1,8 +1,6 @@
 - Hacer la pagina de proyecto
 - Mirar como puedo meter lo de figma en la web
 - Unificar las tarjetas y poner sombritas
-- Cambiar los elemetos de higlight al mismo color (rosa clarito)
-
 
 TODO LAIAG
 - Cover proyectos
@@ -42,17 +40,13 @@ test 2 options --> pasarlo a porcentajes + imatges
 final design
 
 FOODLE
-video resumen --> redonedear bordes = que img MOBIL
-Imatges:
-- Affinity diagram --> no se lee los post it, rediseñar imagen
-- usef flow 1st idea --> mes gran
-- Text 2nd round of interviews 
-- sketch wireframe
-- iconos fruits & vegetables
-- user flow
-- prototyping
+- video foodle: ESPACIO CON TEXTO SUPERIOR
+- MVP photo
+- sketch wireframe sombras
+- prototyping: 1st iteratio, 2nd, 3rd
 - final design
 - prototype final
+images movile
 
 ABOVE THE STARS IMAGES
 - CND
