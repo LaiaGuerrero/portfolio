@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: flex-start;
 }
 
-.intro-left-item {
+.intro-item {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
@@ -95,12 +95,6 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-direction: column;
     row-gap: 28px;
-}
-
-.intro-right-item {
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
 }
 
 .intro-right-item p {
@@ -270,6 +264,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 @media (max-width: 700px) {
+    .intro-left {
+        grid-column: 1 / span 12;
+    }
+
+    .intro-right {
+        margin-top: 28px;
+        grid-column: 1 / span 12;
+    }
+
     .projects-container {
         grid-template-columns: 1fr; /* En pantallas pequeñas, una sola columna */
     }
