@@ -41,9 +41,7 @@ final design
 
 FOODLE
 - video foodle: ESPACIO CON TEXTO SUPERIOR
-- MVP photo
-- sketch wireframe sombras
-- prototyping: 1st iteratio, 2nd, 3rd
+
 - final design
 - prototype final
 images movile
