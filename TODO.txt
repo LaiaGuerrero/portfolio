@@ -32,7 +32,7 @@ Imatges:
 - logo design
 - color palette cmyk
 - tipography
-- estilo ilustracion
+- estilo ilustracion           
 -color palette rgb
 - graphics / animations
 - user flow
@@ -40,8 +40,7 @@ test 2 options --> pasarlo a porcentajes + imatges
 final design
 
 FOODLE
-- video foodle: ESPACIO CON TEXTO SUPERIOR
-
+- video foodle: ESPACIO CON TEXTO SUPERIOR 
 - final design
 - prototype final
 images movile
@@ -59,3 +58,4 @@ visual style revisar (define/ideate)
 moodboard
 logo sketches
 
+IMATGES PORTADA   height: 200px;
