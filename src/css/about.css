@@ -2,7 +2,7 @@
 .resume-section {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .text-content {
@@ -10,10 +10,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-}
-
-.li {
-    list-style-type: circle;
 }
 
 .text-content-description {
@@ -44,6 +40,11 @@
     padding: 0px 2px;
     border-radius: 8px;
 }
+
+.highlighted-text2 {
+    color: #ff8a88;
+    font-size: larger;
+}
   
 
 main h2, main h3, main p {
@@ -59,6 +60,7 @@ main h2, main h3, main p {
     display: flex;
     flex-direction: column;
     row-gap: 32px;
+    margin-bottom: 2%;
 }
 
 .skills-section li {
@@ -135,6 +137,13 @@ main h2, main h3, main p {
     }
 
     
+}
+
+.design-process-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 5%;
 }
 
 .carousel-section {
