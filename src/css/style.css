@@ -51,19 +51,20 @@ header {
 }
 
 .btn-header {
+    font-family: 'DMSans', sans-serif;
     background-color: #A1D9F5;
     color: #302E87;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    border-radius: 25px;
+    border-radius: 24px;
     cursor: pointer;
     text-align: center;
     transition: background-color 0.3s ease;
 }
 
 .btn-header:hover {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .logo img {
@@ -96,7 +97,7 @@ header {
 }
 
 .navigation a:hover {
-    font-weight: 700;
+    text-decoration: underline;
 }
 
 .menu-toggle {
@@ -139,7 +140,7 @@ header {
     display: flex;
     width: 100%;
     overflow: hidden;
-    mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #fff 10%, #fff 90%, transparent);
 }
 
 .carousel div {
@@ -181,20 +182,30 @@ footer {
 }
 
 .footer-content {
-    grid-column: 2 / span 6;
+    grid-column: 2 / span 7;
 }
 
-.footer h2 {
-    margin: 0;
+.footer h1 {
+    margin-bottom: 1rem;
     font-size: 1.5rem;
 }
 
 .footer-buttons {
     display: flex;
-    gap: 25px;
+    gap: 24px;
+    margin-top: 24px;
+    text-decoration: none;
+}
+
+.footer-extra-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    grid-column: 2/ span 12;
 }
 
 .footer-buttons button {
+    font-family: 'DMSans', sans-serif;
     padding: 10px 20px;
     background-color: #302E87;
     border: none;
@@ -203,22 +214,100 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 16px;
-    border-radius: 25px;
+    border-radius: 24px;
     cursor: pointer;
     text-align: center;
 }
 
 .footer-buttons button:hover {
-    background-color: #005bb5;
+    background-color: #1e1a5e;
+    color: #ffffff;
 }
 
 .footer-made-with-love {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    font-size: 0.9rem;
-    color: #333;
+   margin-bottom: 0px;
 }
+
+/* Featured work */
+.featured-work {
+    text-align: left;
+    
+  }
+  
+  .work-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .work-card {
+    background: #ffffff;
+    color: #302E87;
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+  
+  }
+  
+  .work-card:hover {
+    transform: scale(1.01);
+  }
+  
+  .work-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .work-card-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .work-card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .work-card-subtitle {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .work-card-extra-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .work-card-tags {
+    display: flex;
+    column-gap: 0.5rem;
+  }
+  
+  .tag {
+    background: #ff8a88;
+    color: #302E87;
+    font-family: 'DMSans', sans-serif;
+    padding: 0.3rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+  }
+  
+  .work-card-view-work {
+    margin-top: 0.5em;
+    font-weight: bold;
+    text-decoration: none;
+  }
 
 /* Responsive */
 @media (max-width: 700px) {
@@ -301,8 +390,13 @@ footer {
     }
 
     .footer-content {
-        grid-column: 2;
+        grid-column: 2 span 2;
     }
+
+    .footer-extra-info {
+        grid-column: 2 span 1;
+    }
+
 
     .footer-made-with-love {
         right: 20px;
@@ -315,4 +409,32 @@ footer {
     .logo img {
         height: 30px;
     }
+}
+
+@media (max-width: 1375px) {
+.view-project-text {
+    display: none;
+}
+}
+
+@media (max-width: 1024px) {
+.work-container {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.work-card {
+    grid-column: span 3;
+}
+}
+
+
+/* Pantallas menores a 700px */
+@media (max-width: 700px) {
+.work-container {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.work-card {
+    grid-column: span 4;
+}
 }

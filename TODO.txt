@@ -1,13 +1,16 @@
-- Hacer la pagina de proyecto
+DUDAS MIGUELDEMOLLET
+FOOTER --> PAGINAS proyecto + REVISAR MOBILE
+HEADER --> NO ES IGUAL EN TODAS LAS PAGINAS
+PAGINA WORK --> ESPACIO ARRIBA
 - Mirar como puedo meter lo de figma en la web
-- Unificar las tarjetas y poner sombritas
 
-TODO LAIAG
+
+
+TODO 
 - Cover proyectos
 - imagen design process
 - imagen/video resumen
-- carrusel exportar imagenes
-- exportar logo sin margen
+
 
 CROQUETEO
 - grafico popular culinary offer MOBILE
@@ -59,3 +62,6 @@ moodboard
 logo sketches
 
 IMATGES PORTADA   height: 200px;
+
+
+
