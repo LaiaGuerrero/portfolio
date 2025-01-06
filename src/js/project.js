@@ -5,6 +5,8 @@ const subheaderText = document.querySelector('#current-section-text');
 const designProcessBlock = document.getElementById('design-process-block');
 const introRight = document.querySelector('.intro-right');
 const introLeft = document.querySelector('.intro-left');
+const contentContent = document.querySelector('.content-content');
+const contentRowGap = parseInt(window.getComputedStyle(contentContent).getPropertyValue('row-gap'));
 
 subheader.style.display = 'none';
 
@@ -22,11 +24,11 @@ window.addEventListener('scroll', () => {
 
     sections.forEach(section => {
         const sectionTop = section.offsetTop - 100;
-        const sectionHeight = section.offsetHeight;
+        const sectionHeight = section.offsetHeight + contentRowGap;
 
         if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
             currentSection = section.getAttribute('id');
-        }
+        } 
     });
 
     if (currentSection) {
