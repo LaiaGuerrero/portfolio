@@ -144,9 +144,3 @@ main h2, main h3, main p {
 li:not(:last-child) { 
     margin-bottom: 4px;  
 }
-
-@media (max-width: 700px) {
-    body {
-      row-gap: 2%;
-    }
-}
