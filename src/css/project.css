@@ -10,7 +10,6 @@ body {
     row-gap: 0;
 }
 
-
 h1, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -71,7 +70,6 @@ video {
     row-gap: 0%;
 }
 
-
 .intro-top {
     grid-column: 1 / span 12;
     margin-bottom: 28px;
@@ -120,8 +118,6 @@ video {
     object-fit: cover;
 }
 
-
-
 .content-section {
     margin-bottom: 5%;
     display: grid;
@@ -129,7 +125,6 @@ video {
     column-gap: 16px;
     row-gap: 0%;
 }
-
 
 .content-index {
     grid-column: 1 / span 2;
