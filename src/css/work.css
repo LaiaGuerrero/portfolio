@@ -1,5 +1,5 @@
 body {
-  row-gap: 5%;
+  row-gap: 6.5%;
 }
 
 .discover-section {
@@ -49,79 +49,79 @@ body {
   transform: scale(1.01);
 }
   
-  .project-card {
-    display: flex;
-    background: #ffffff;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 49%;
-    margin-bottom: 30px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    color: #302E87;
-    border-radius: 24px;
-    overflow: hidden;
-  }
+.project-card {
+  display: flex;
+  background: #ffffff;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 49%;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  color: #302E87;
+  border-radius: 24px;
+  overflow: hidden;
+}
   
-  .project-card img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-  }
+.project-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 
-  .project-card-content {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-  }
+.project-card-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
   
-  .project-card-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-  }
+.project-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
   
-  .project-card-subtitle {
-    font-size: 1rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
+.project-card-subtitle {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
   
-  .project-card-extra-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
+.project-card-extra-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
   
-  .project-card-tags {
-    display: flex;
-    column-gap: 0.5rem;
-  }
+.project-card-tags {
+  display: flex;
+  column-gap: 0.5rem;
+}
 
-  .project-card-view-work {
-    margin-top: 0.5em;
-    font-weight: bold;
-    text-decoration: none;
-  }
+.project-card-view-work {
+  margin-top: 0.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
 
-  .carousel-section {
-    margin-top: 2%;
-    margin-bottom: 0;
-  }
+.carousel-section {
+  margin-top: 2%;
+  margin-bottom: 0;
+}
   
   /* Dos columnas cuando la pantalla sea menor a 1000px */
-  @media (max-width: 1000px) {
-    .project-card {
-      width: 100%; /* Ajuste para que haya espacio entre las tarjetas */
-    }
+@media (max-width: 1000px) {
+  .project-card {
+    width: 100%; /* Ajuste para que haya espacio entre las tarjetas */
   }
+}
 
-  @media (max-width: 700px) {
-    body {
-      row-gap: 1.5%;
-    } 
+@media (max-width: 700px) {
+  body {
+    row-gap: 3%;
   }
+}
