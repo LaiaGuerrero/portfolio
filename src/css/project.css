@@ -106,17 +106,12 @@ video {
     font-size: 2.5em;
  }
 
- .intro-item h2 {
+.intro-item h2 {
     font-size: 1.5em;
     margin-top: 0.2em;
     font-family: DM Sans, sans serif;
 
  }
-
-.image-process {
-    width: 100%;
-    object-fit: cover;
-}
 
 .content-section {
     margin-bottom: 5%;
@@ -214,20 +209,6 @@ video {
     display: flex;
     justify-content: left;
     align-items: top;
-}
-
-.two-iamge-in-row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 16px;
-    row-gap: 0%;
-}
-
-.two-iamge-in-row img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    border-radius: 16px;
 }
 
 .cards-container {
