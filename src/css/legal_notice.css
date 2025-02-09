@@ -1,1 +1,25 @@
+.legal-notice-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
 
+.legal-notice-section h3,p {
+    margin: 0;
+}
+
+
+
+.text-content {
+    grid-column: 1 / span 6;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.text-content-description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 16px;
+}

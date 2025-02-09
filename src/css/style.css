@@ -64,7 +64,8 @@ header {
 }
 
 .btn-header:hover {
-    background-color: #ffffff;
+    background-color: #B3E1F7;
+    color: #302E87;
 }
 
 .logo img {
