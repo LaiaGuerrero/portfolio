@@ -236,6 +236,7 @@ footer {
     gap: 48px;
     margin-bottom: 0px;
     font-size: 1rem;
+    font-family: 'DMSans', sans-serif;
 }
 
 .footer-extra-info a {
