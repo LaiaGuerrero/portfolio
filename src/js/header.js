@@ -21,7 +21,7 @@ function toggleSubMenu() {
 
     submenuNav.classList.toggle('active');
 
-    if (submenuNav.classList.contains('active')) {ç
+    if (submenuNav.classList.contains('active')) {
         toggle.innerHTML = '✖';
         menuBtn.style.zIndex = '-1'; // Ocultar el botón del menú principal
     } else {
