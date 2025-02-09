@@ -16,13 +16,16 @@ function toggleMenu() {
 
 function toggleSubMenu() {
     const submenuNav = document.querySelector('.navigation.subheader');
+    const toggle = document.querySelector('.Submenu-toggle');
     const menuBtn = document.querySelector('#btn-header-menu');
 
     submenuNav.classList.toggle('active');
 
-    if (submenuNav.classList.contains('active')) {
+    if (submenuNav.classList.contains('active')) {ç
+        toggle.innerHTML = '✖';
         menuBtn.style.zIndex = '-1'; // Ocultar el botón del menú principal
     } else {
+        toggle.innerHTML = '↓';
         menuBtn.style.zIndex = '4';
     }
 
