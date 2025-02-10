@@ -21,6 +21,11 @@ h2 {
     margin-inline-end: 0px;
 }
 
+.content-ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .subheader {
     display: none;
     background-color: #A1D9F5;
@@ -141,7 +146,7 @@ video {
     grid-column: 8 / span 4;
     display: flex;
     flex-direction: column;
-    row-gap: 32px;
+    row-gap: 40px;
 }
 
 .intro-item {
