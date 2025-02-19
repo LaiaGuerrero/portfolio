@@ -55,7 +55,7 @@ video {
 }
 
 .highlighted-text {
-    background-color: #a1d9f5;
+    background-color: #FFE8D6;
     padding: 0px 2px;
     border-radius: 6px;
 }
@@ -68,7 +68,7 @@ video {
 
 .btn-prototype-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
 }
 
