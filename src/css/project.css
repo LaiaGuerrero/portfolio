@@ -68,7 +68,7 @@ video {
 
 .btn-prototype-container {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     width: 100%;
 }
 
@@ -421,6 +421,12 @@ video {
     }
 
     .btn-prototype {
+        width: 100%;
+    }
+
+    .btn-prototype-container {
+        display: flex;
+        justify-content: left;
         width: 100%;
     }
 }
