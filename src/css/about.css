@@ -35,7 +35,7 @@
 }
 
 .highlighted-text {
-    background-color: #a1d9f5;
+    background-color: #FFE8D6;
     padding: 0px 2px;
     border-radius: 8px;
 }
@@ -78,7 +78,7 @@ li:not(:last-child) {
 }
 
 .skills-section li {
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 .skills-container {
@@ -91,6 +91,36 @@ li:not(:last-child) {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-family: 'DMSans', sans-serif;
+}
+.card h3 {
+    font-size: 1.3em;
+    margin-bottom: 4px;
+}
+.card h4 {
+    font-size: 1.1em;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #ff8a88;
+    font-style: oblique;
+}
+.card p {
+    margin-top: 0px;
+    font-size: 1em;
 }
 
 /* Posiciones iniciales para columnas */
