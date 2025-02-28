@@ -319,7 +319,12 @@ footer {
   
   .work-card-tags {
     display: flex;
-    column-gap: 0.5rem;
+    column-gap: 0.6rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 0.6rem;
   }
   
   .tag {

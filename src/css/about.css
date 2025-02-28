@@ -93,32 +93,34 @@ li:not(:last-child) {
     row-gap: 8px;
 }
 
-.container {
+.container-design-process {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     width: 100%;
 }
-.card {
+.card-design-process {
     background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FF918C; 
     text-align: left;
     font-family: 'DMSans', sans-serif;
 }
-.card h3 {
+.card-design-process h3 {
     font-size: 1.3em;
     margin-bottom: 4px;
+    color: #ff8a88;
 }
-.card h4 {
+.card-design-process h4 {
     font-size: 1.1em;
     margin-top: 8px;
     margin-bottom: 16px;
     color: #ff8a88;
     font-style: oblique;
 }
-.card p {
+.card-design-process p {
     margin-top: 0px;
     font-size: 1em;
 }
