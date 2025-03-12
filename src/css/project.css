@@ -91,6 +91,7 @@ video {
     transition: background-color 0.3s ease;
     width: 300px; 
     max-width: 100%; 
+    margin-bottom: 1.1rem;
 }
 
 .btn-prototype:hover {
@@ -145,8 +146,9 @@ video {
 .intro-right {
     grid-column: 7 / span 6;
     display: flex;
+    row-gap: 3rem;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .intro-item {
@@ -214,7 +216,6 @@ video {
     border-radius: 16px;
 }
 
-
 .content-father {
     display: flex;
     flex-direction: column;
@@ -264,12 +265,63 @@ video {
     align-items: top;
 }
 
-.container-design-process {
+.container-card-key-decisions {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     width: 100%;
+    margin-bottom: 0.7rem;
 }
+
+.card-key-decisions {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FF918C; 
+    text-align: left;
+    font-family: 'DMSans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.card-key-decisions-icon {
+    width: 50px; /* Ajusta según necesites */
+    height: 50px;
+    background-color: #FF918C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2rem; /* Espacio entre el icono y el título */
+}
+
+.card-key-decisions-icon img {
+    width: 60%; /* Ajusta el tamaño del icono dentro del círculo */
+    height: auto;
+    border-radius: 0px;
+}
+
+.card-key-decisions h3 {
+    font-size: 1.3em;
+    margin-bottom: 0.5rem;
+    color: #302E87;
+}
+
+.card-key-decisions p {
+    margin-top: 0px;
+    font-size: 1em;
+}
+
+.container-card-design-process {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+
 .card-design-process {
     background: white;
     padding: 20px;
@@ -278,302 +330,42 @@ video {
     border: 2px solid #FF918C; 
     text-align: left;
     font-family: 'DMSans', sans-serif;
-}
-.card-design-process h3 {
-    font-size: 1.3em;
-    margin-bottom: 4px;
-    color: #302E87;
-}
-.card-design-process h4 {
-    font-size: 1.1em;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    color: #ff8a88;
-    font-style: oblique;
-}
-.card-design-process p {
-    margin-top: 0px;
-    font-size: 1em;
-}
-
-.cards-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
-
-.card {
-    background-color: #ffffff;
-    border-radius: 24px;
-    border: 2px solid #FF918C; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden; 
-}
-
-.card-header {
-    background-color: #302E87;
-    padding: 10px 15px;
-}
-
-.card-header h4 {
-    margin: 0;
-    color: #ffffff;
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-.card-content {
-    padding: 15px;
-    padding-left: 30px;
-}
-
-.card-content ul {
-    list-style-type: circle;
-    padding: 0;
-    margin: 0;
-}
-
-.card-content li {
-    color: #302E87;
-    margin-bottom: 8px;
-    font-size: 1rem;
-}
-
-.two-columns {
-    grid-template-columns: repeat(2, 1fr); 
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    width: 100%;
-}
-
-.grid-container-two-rows {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-    width: 100%;
-}
-
-.grid-item {
-    position: relative;
-    border-radius: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    max-height: 300px;
-}
-
-.grid-item.expanded {
-    max-height: 500px;
-}
-
-.grid-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 16px 16px 0px 0px;
-}
-
-.overlay-text {
-    position: relative;
-    bottom: 34px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #302E87;
-    color: white;
-    padding: 12px 24px;
-    font-size: 20px;
-    border-radius: 0px 0px 16px 16px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.overlay-text:hover {
-    text-decoration: underline;
-}
-
-.extra-content {
-    display: none;
-    padding: 16px;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
-
-.grid-item.expanded .extra-content {
-    display: block;
-}
-
-.container-user-persona {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 0.7rem;
-    width: 100%;
-}
-.card-user-persona {
-    background: white;
-    padding: 1.1rem;
-    padding-bottom: 0.4rem;
-    border-radius: 24px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 2px solid #FF918C; 
-    text-align: left;
-    font-family: 'DMSans', sans-serif;
-}
-.card-user-persona h3 {
-    font-size: 1.3em;
-    margin-bottom: 4px;
-    color: #ff8a88;
-}
-
-.card-user-persona p {
-    margin-top: 0px;
-    font-size: 1em;
-}
-
-.card-user-persona ul {
-    list-style-type: circle;
-    padding-inline-start: 1rem;
-}
-
-.card-user-persona-profile {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    border-radius: 24px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 2px solid #FF918C;
-    color: white;
-    text-align: center;
+    align-items: start;
 }
 
-.user-persona-profile-image {
-    background: #FFFFFF;
-    width: 100%;
-    height: 70%;
-}
-
-.user-persona-profile-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.user-persona-profile-text {
-    width: 100%;
-    height: 30%;
-    background: #302E87;
-    color: white;
+.card-design-process-icon {
+    width: 50px; /* Ajusta según necesites */
+    height: 50px;
+    background-color: #FF918C;
+    border-radius: 50%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    font-family: 'DMSans', sans-serif;
+    align-items: center;
+    flex-shrink: 0; /* Evita que el icono se reduzca */
+    margin-bottom: 1.2rem; /* Espacio entre el icono y el título */
 }
 
-.card-user-persona-behaviours {
-    background: white;
-    padding: 1.1rem;
-    padding-bottom: 0.4rem;
-    border-radius: 24px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 2px solid #FF918C; 
-    text-align: left;
-    font-family: 'DMSans', sans-serif;
-    gap: 2rem; 
-    display: flex;
-    flex-direction: column;
-}
-
-.card-user-persona-behaviours h3 {
-    font-size: 1.3em;
-    color: #ff8a88;
-    margin-bottom: 16px;
-}
-
-.behaviours-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem
-}
-
-.container-user-stories {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 0.7rem;
-    width: 100%;
-}
-
-.card-user-stories {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    border-radius: 24px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 2px solid #FF918C;
-    color: white;
-    text-align: center;
-}
-
-.user-stories-image {
-    background: #FFFFFF;
-    width: 100%;
-    height: 65%;
-}
-
-.user-stories-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.card-design-process-icon img {
+    width: 60%; /* Ajusta el tamaño del icono dentro del círculo */
+    height: auto;
     border-radius: 0px;
 }
 
-.user-stories-text {
-    width: 100%;
-    height: 35%;
-    padding: 1rem;
-    background: white;
+.card-design-process h3 {
+    font-size: 1.4em;
     color: #302E87;
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    font-family: 'DMSans', sans-serif;
-    box-sizing: border-box; /* Asegura que el padding no cause desbordamiento */
-    overflow: hidden; /* Evita el desbordamiento del texto */
-    word-wrap: break-word; /* Ajusta el texto largo para que se envuelva correctamente */
-    
+    margin-bottom: 0.5rem
+}
+
+.card-design-process p {
+    margin-top: 0;
+    font-size: 1em;
 }
 
 
 
-
-
-
-
-
-
-@media (max-width: 1024px) {
-    .cards-container,
-    .two-columns {
-        grid-template-columns: repeat(2, 1fr); 
-    }
-}
-
-@media (max-width: 768px) {
-    .cards-container,
-    .two-columns {
-        grid-template-columns: 1fr; 
-    }
-}
 
 @media (max-width: 700px) {
     .intro-left {
@@ -624,10 +416,3 @@ video {
     }
 }
 
-
-
-@media (max-width: 480px) {
-    .card {
-        font-size: 0.9rem; 
-    }
-}
