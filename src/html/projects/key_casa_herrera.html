@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAIA G - The key to Casa Herrera</title>
+    <link rel="icon" href="../../../resource/img/logo/monogram_navy.svg" type="image/png">
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/custom_font.css">
+    <link rel="stylesheet" href="../../css/project.css">
+
+    <script src="../../js/header.js" defer></script>
+    <script src="../../js/project.js" defer></script>
+    <script src="../../js/autoplay_video.js" defer></script>
+    <script src="../../js/expanded_cards.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-item">
+            <button id="btn-header-menu" class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <div class="logo">
+                <a href="../../../index.html"><img src="../../../resource/img/logo/logo_white.svg" alt="Logo"></a>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="./../about.html">About</a></li>
+                    <li><a href="./../work.html">Work</a></li>
+                    <li><button class="btn-header">Resume ↗</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-item subheader">
+            <h2 id="current-section-text">Categoria</h2>
+            <button id="btn-header-submenu" class="menu-toggle Submenu-toggle" onclick="toggleSubMenu()">v</button>
+            <nav class="navigation subheader"></nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="project-img-section-first">
+            <img src="../../../resource/img/croqueteo/portadas_proyectos_croqueteo.jpg" alt="The key to Casa Herrera Cover">
+        </div>
+        <section class="intro-section">
+            <div class="intro-top">
+                <div class="intro-item">
+                    <h1>THE KEY TO CASA HERRERA</h1>
+                    <h2>a sophisticated website for a Carolina Herrera corporate event</h2>
+                </div>
+            </div>
+            <div class="intro-left">
+                <div class="intro-item">
+                    <h3>Overview</h3>
+                    <p>Imagine the Casa Herrera Seminar website as the <span class="highlighted-text">key to an exclusive beauty experience</span>—seamlessly 
+                    blending elegance with functionality. This digital experience guides international attendees through a <span class="highlighted-text">refined
+                    registration journey</span>, offering tailored event details, curated local insights, and a VIP-inspired welcome.</p>
+                </div>
+
+                <div class="intro-item">
+                    <h3>Final Design</h3>
+                    <div class="btn-prototype-intro-container">
+                        <a href="https://www.figma.com/proto/QD1QhQiUUJQWcKIuuzVXR3/Foodle-Prototype?page-id=0%3A1&node-id=2-3017&p=f&viewport=650%2C467%2C0.07&t=m657lc1Og2yCtrim-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A2077" target="_blank">
+                            <button class="btn-prototype">Try the Prototype in Figma ↗</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="intro-right">
+                <div class="intro-item">
+                    <h3>Outcomes & Impact</h3>
+                    <div class="featured-item-container">
+                        <div class="featured-item">
+                            <div class="featured-item-icon">
+                                <img src="../../../resource/icon/check.svg" alt="Check Icon">
+                            </div>
+                            <p><b>30% Faster Registration:</b> Streamlined user flow reduced registration time by 30% compared to last year’s website.</p>
+                        </div>
+                        <div class="featured-item">
+                            <div class="featured-item-icon">
+                                <img src="../../../resource/icon/check.svg" alt="Check Icon">
+                            </div>
+                            <p><b>Improved Conversion:</b> A more intuitive journey increased the attendance confirmation rate.</p>
+                        </div>
+                        <div class="featured-item">
+                            <div class="featured-item-icon">
+                                <img src="../../../resource/icon/check.svg" alt="Check Icon">
+                            </div>
+                            <p><b>Enhanced User Experience:</b> Clear local insights and mobile-first design significantly improved usability for international professionals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <div class="project-img-section-second">
+            <video width="100%" autoplay muted loop>
+                <source media="(max-width: 700px)" src="../../../resource/video/foodle/mobile/foodle_video_promo.mp4" type="video/mp4">
+                <source src="../../../resource/video/foodle/desktop/foodle_video_promo.mp4" type="video/mp4">
+                Your browser does not support the video tag. Please check your settings or try a different browser.
+            </video>
+        </div>
+
+        <section class="content-section">
+            <div class="content-index">
+                <a href="#the-challenge">The challenge</a>
+                <a href="#solution">The solution</a>
+                <a href="#design-process">Design process</a>
+                <a href="#final-design">
+                    <span class="highlighted-text-index">Final Design</span>
+                <a href="#learnings">Learnings</a>
+            </div>
+
+            <div class="content-content">
+                <div id="the-challenge" class="content-father">
+                    <div class="content-item">
+                        <h1>THE CHALLENGE</h1>
+
+                        <p><b>How might we design a registration website for Casa Herrera Seminar that balances luxury branding with seamless usability?</b></p>
+                        
+                        <p>Casa Herrera Seminar is an exclusive training event by Carolina Herrera, set in the architecturally stunning Espai Corberó. However, 
+                        <b>past event websites struggled with mobile usability</b>, unclear communication, and insufficient local information for international guests. 
+                        The challenge was to <b>craft an elegant yet practical digital experience</b>—one that aligned with Carolina Herrera’s sophisticated identity 
+                        while ensuring a smooth and engaging registration process for attendees worldwide.
+                        </p>
+                        
+                        <picture>
+                            <source media="(max-width: 700px)" srcset="../../../resource/img/key_casa_herrera/desktop/casa_herrera_seminar_aesthetics.webp">
+                            <img src="../../../resource/img/key_casa_herrera/desktop/casa_herrera_seminar_aesthetics.webp" alt="The key to Casa Herrera aesthetics">
+                        </picture>
+                    </div>
+                </div>
+
+                <div id="solution" class="content-father">
+                    <div class="content-item">
+                        <h1>THE SOLUTION</h1>
+                        <p>Every design decision was driven by three core principles:</p>
+                    
+                        <div class="container-card-solution">
+                            <div class="card-solution">
+                                <div class="card-solution-image">
+                                    <img src="../../../resource/img/key_casa_herrera/casa_herrera_seminar_mobile_first.webp" alt="Mobile First approach">
+                                </div>
+                                <div class="card-solution-content">
+                                    <div class="card-solution-icon">
+                                        <img src="../../../resource/icon/key_casa_herrera/casa_herrera_seminar_mobile.svg" alt="Mobile Icon">
+                                    </div>
+                                    <h3>Mobile-first approach</h3>
+                                    <p>With 68% of last year’s visitors accessing the site via mobile, designing for small screens was non-negotiable.</p>
+                                </div>
+                            </div>
+                            <div class="card-solution">
+                                <div class="card-solution-image">
+                                    <img src="../../../resource/img/key_casa_herrera/casa_herrera_seminar_vip_invitation.webp" alt="VIP invitation">
+                                </div>
+                                <div class="card-solution-content">
+                                    <div class="card-solution-icon">
+                                        <img src="../../../resource/icon/key_casa_herrera/casa_herrera_seminar_VIP.svg" alt="Invitation Icon">
+                                    </div>
+                                    <h3>VIP invitation</h3>
+                                    <p>I crafted a registration flow that felt like receiving a personal invitation with a “Welcome Pass” and tailored local recommendations.</p>
+                                </div>
+                            </div>
+                            <div class="card-solution">
+                                <div class="card-solution-image">
+                                    <img src="../../../resource/img/key_casa_herrera/casa_herrera_seminar_minimalistic_design.webp" alt="Elegant minimalism design">
+                                </div>
+                                <div class="card-solution-content">
+                                    <div class="card-solution-icon">
+                                        <img src="../../../resource/icon/key_casa_herrera/casa_herrera_seminar_luxury.svg" alt="Luxury Icon">
+                                    </div>
+                                    <h3>Elegant minimalism</h3>
+                                    <p>I ensured that every visual element—from typography to interactive cues—reinforced a luxurious yet user-friendly experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-father">
+                    <div class="content-item">
+                        <picture>
+                            <source media="(max-width: 700px)" srcset="../../../resource/img/key_casa_herrera/mobile/casa_herrera_seminar_moodboard.webp">
+                            <img src="../../../resource/img/key_casa_herrera/desktop/casa_herrera_seminar_moodboard.webp" alt="The key to Casa Herrera moodboard">
+                        </picture>
+                    </div>
+                </div>
+
+                <div id="design-process" class="content-father">
+                    <div class="content-item">
+                        <h1>DESIGN PROCESS</h1>
+
+                        <p>My design process is a flexible journey that emphasizes collaboration and continuous improvement. Throughout, I leverage methodologies like Design Thinking and Lean UX to ensure efficiency and user-centered outcomes.</p>
+                        <p>Read about our journey of turning insights into impactful solutions:</p>
+
+                        <div class="container-card-design-process">
+
+                            <div class="card-design-process">
+                                <div class="card-design-process-icon">
+                                    <img src="../../../resource/icon/design_process/design_process_understand.svg" alt="Understand Icon">
+                                </div>
+                                <h3>1. Understand</h3>
+                                <p>Conducted surveys and interviews with 20 potential users to uncover pain points such as mobile usability issues and the need for clear, accessible event information.</p>
+                            </div>
+
+                            <div class="card-design-process">
+                                <div class="card-design-process-icon">
+                                    <img src="../../../resource/icon/design_process/design_process_define.svg" alt="Define Icon">
+                                </div>
+                                <h3>2. Define</h3>
+                                <p>Immersed in Carolina Herrera’s aesthetic guidelines, we identified key design elements that echoed the brand’s sophistication and the event venue’s architectural beauty.</p>
+                            </div>
+
+                            <div class="card-design-process">
+                                <div class="card-design-process-icon">
+                                    <img src="../../../resource/icon/design_process/design_process_ideate.svg" alt="Ideate Icon">
+                                </div>
+                                <h3>3. Ideate</h3>
+                                <p>Developed user personas and mapped out the registration journey as a “digital key” to the event. Created sketch wireframes and iterated through low- and high-fidelity prototypes in Figma.</p>
+                            </div>
+
+                            <div class="card-design-process">
+                                <div class="card-design-process-icon">
+                                    <img src="../../../resource/icon/design_process/design_process_iterate.svg" alt="Iterate Icon">
+                                </div>
+                                <h3>4. Iterate</h3>
+                                <p>Engaged 10 users in one-on-one sessions to refine the navigation flow and ensure the design resonated across devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                
+
+                <div id="final-design" class="content-father">
+                    <div class="content-item">
+                        <h1>FINAL DESIGN</h1>
+
+                        <p>After incorporating user feedback and refining the prototype, I prepared the final design and all necessary guidelines, assets, and
+                        documentation to ensure a smooth handover. The design was fully responsive, with careful attention to typography, layout, and interactive elements to ensure the best user experience
+                        across all platforms.</p>
+                        
+                        <div class="btn-prototype-container">
+                            <a href="https://www.figma.com/proto/QD1QhQiUUJQWcKIuuzVXR3/Foodle-Prototype?page-id=0%3A1&node-id=2-3017&p=f&viewport=650%2C467%2C0.07&t=m657lc1Og2yCtrim-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A2077" target="_blank">
+                                <button class="btn-prototype">Try the Prototype in Figma ↗</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="content-item">
+                            <picture>
+                                <source media="(max-width: 700px)" srcset="../../../resource/img/foodle/mobile/foodle_final_design_cover.webp">
+                                <img src="../../../resource/img/foodle/desktop/foodle_final_design_cover.webp" alt="Cover The Key to Casa Herrera Final Design">
+                            </picture>
+                            
+                            <video autoplay muted loop>
+                                <source media="(max-width: 700px)" src="../../../resource/video/foodle/mobile/foodle_final_design_screens.mp4" type="video/mp4">
+                                <source src="../../../resource/video/foodle/desktop/foodle_final_design_screens.mp4" type="video/mp4">
+                                Your browser does not support the video tag. Please check your settings or try a different browser.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="learnings" class="content-father">
+                    <div class="content-item">
+                        <h1>LEARNINGS</h1>
+                        <div class="content-item-learnings">
+                            <h3>Bridging elegance & functionality</h3>
+                            <p>Balancing Carolina Herrera’s high-end aesthetics with a seamless user experience was a defining challenge. A mobile-first approach ensured accessibility without compromising the brand’s refined identity. This experience reinforced my ability to prioritize clarity, hierarchy, and usability while maintaining a visually compelling design.</p>
+                        </div>
+                        <div class="featured-item">
+                            <div class="featured-item-icon">
+                                <img src="../../../resource/icon/feedback.svg" alt="Comment Icon">
+                            </div>
+                            <p><i>The registration process was smooth and beautifully designed—it felt premium, just like the brand.</i></p>
+                            <p>- Hayley, Event Attendee</p>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="content-item-learnings">
+                            <h3>Refining the registration flow</h3>
+                            <p>Testing multiple user flows for registration underscored the impact of small optimizations on conversion rates. Each iteration fine-tuned the process, ensuring users could complete their registration effortlessly and intuitively.</p>
+                        </div>                        
+                        <div class="featured-item">
+                            <div class="featured-item-icon">
+                                <img src="../../../resource/icon/feedback.svg" alt="Comment Icon">
+                            </div>
+                            <p><i>The registration process was smooth and beautifully designed—it felt premium, just like the brand.</i></p>
+                            <p>- Hayley, Event Attendee</p>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="content-item-learnings">
+                            <h3>Cross-team collaboration & precision in handoff</h3>
+                            <p>Aligning with project managers and developers highlighted the importance of clear documentation and structured design handoff. Ensuring design intent was preserved through implementation strengthened my ability to communicate effectively across disciplines and anticipate technical constraints early in the process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+         <!-- Featured Work Section -->
+         <section class="featured-work">
+            <h2>Want to see more?</h2>
+            <div class="work-container">
+
+                <a href="../projects/foodle.html" class="work-card">
+                    <img src="../../../resource/img/featured_work/featured_work_foodle.webp" alt="Foodle project cover" class="work-card-image">
+                    <div class="work-card-info">
+                        <h3 class="work-card-title">Foodle</h3>
+                        <p class="work-card-subtitle">An app that helps you make decisions to get the most out of your food</p>
+                        <div class="work-card-extra-info">
+                            <div class="work-card-tags">
+                                <span class="tag">UX/UI Design</span>
+                            </div>
+                            <p class="work-card-view-work">View Project →</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="../projects/above_the_stars.html" class="work-card">
+                    <img src="../../../resource/img/featured_work/featured_work_above_the_stars.webp" alt="Above the stars Project cover" class="work-card-image">
+                    <div class="work-card-info">
+                        <h3 class="work-card-title">Above the stars</h3>
+                        <p class="work-card-subtitle">A brand identity for a corporate event inspired by Ancient Greeks.</p>
+                        <div class="work-card-extra-info">
+                            <div class="work-card-tags">
+                                <span class="tag">Art Direction</span>
+                            </div>
+                            <p class="work-card-view-work">View Project →</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="../projects/croqueteo.html" class="work-card">
+                    <img src="../../../resource/img/featured_work/featured_work_croqueteo.webp" alt="Croqueteo Project cover" class="work-card-image">
+                    <div class="work-card-info">
+                        <h3 class="work-card-title">Croqueteo</h3>
+                        <p class="work-card-subtitle">A playful and sensual visual identity designed for a food truck.</p>
+                        <div class="work-card-extra-info">
+                            <div class="work-card-tags">
+                                <span class="tag">Art Direction</span>
+                            </div>
+                            <p class="work-card-view-work">View Project →</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Carousel Section -->
+        <section class="carousel-section">
+            <div class="carousel">
+                <div>
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_bauhaus.webp" alt="Bauhaus">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_ceramic.webp" alt="Ceramic">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_hearts.webp" alt="Sweets hearts">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_flowers.webp" alt="Flowers">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_monogram.webp" alt="LAIA G monogram">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_painting.webp" alt="Painting">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_picasso.webp" alt="Picasso">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_rotterdam.webp" alt="Rotterdam">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_sunset.webp" alt="Sunset">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_botero.webp" alt="Botero">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_think_by_heart_design_by_brain.webp" alt="Thinking by heart, designing by brain">
+                </div>
+                <div>
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_bauhaus.webp" alt="Bauhaus">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_ceramic.webp" alt="Ceramic">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_hearts.webp" alt="Sweets hearts">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_flowers.webp" alt="Flowers">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_monogram.webp" alt="LAIA G monogram">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_painting.webp" alt="Painting">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_picasso.webp" alt="Picasso">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_rotterdam.webp" alt="Rotterdam">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_sunset.webp" alt="Sunset">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_botero.webp" alt="Botero">
+                    <img src="../../../resource/img/pattern/LAIAG_pattern_think_by_heart_design_by_brain.webp" alt="Thinking by heart, designing by brain">
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <h1>Let’s get in touch!</h1>
+            <p>Looking for a <b>passionate and versatile designer</b> with expertise in UX/UI and graphic design? 
+                Let’s create something amazing together!</p>
+            <div class="footer-buttons">
+                <a href="https://www.linkedin.com/in/laiaguerrerocandela/" target="_blank">
+                    <button>LinkedIn ↗</button>
+                </a>
+                <a href="malito:laiaguerrero99@gmail.com" target="_blank">
+                    <button>Email ↗</button>
+                </a>
+            </div>
+        </div>
+        <div class="footer-extra-info">
+            <a href="../legal_notice.html">Legal Notice</a>
+            <p><b> © 2025 LAIA G </b></p>
+        </div>
+    </footer>
+</body>
+</html>
