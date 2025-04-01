@@ -91,12 +91,10 @@ video {
     cursor: pointer;
     text-align: center;
     transition: background-color 0.3s ease;
-    width: 300px; 
-    max-width: 100%; 
 }
 
 .btn-prototype:hover {
-    background-color: #B3E1F7;
+    background-color: #bce6f9;
     color: #302E87;
 }
 
@@ -106,10 +104,11 @@ video {
     margin-bottom: 5%;
 }
 
-.project-img-section-first img, .project-img-section-second img {
+.project-img-section-first img {
     width: 100%;
     height: 60vh;
     object-fit: cover;
+    object-position: left center;
 }
 
 .project-img-section-second {
@@ -291,10 +290,17 @@ video {
     align-items: start;
 }
 
+.card-solution-image {
+    width: 100%;
+    height: 150px; /* Puedes ajustar este valor con media queries si necesitas */
+    overflow: hidden; 
+    display: flex;
+}
+
 .card-solution-image img {
     width: 100%;
-    height: 150px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: cover; /* Mantiene la imagen ajustada al tamaño del contenedor sin deformarse */
     border-radius: 16px 16px 0 0;
 }
 
@@ -325,7 +331,7 @@ video {
 }
 
 .card-solution h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 0.5rem;
     color: #302E87;
 }

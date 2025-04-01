@@ -1,48 +1,89 @@
-.resume-section {
+
+.about-section {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     margin-bottom: 3%;
-}
-
-.text-content {
-    grid-column: 1 / span 6;
-    display: flex;
-    flex-direction: column;
     row-gap: 16px;
 }
 
-.text-content-description {
+.about-section h1 {
+    font-size: 1.5rem;
+    grid-column: 1 / span 11;
+}
+
+.about-text {
+    grid-column: 1 / span 7;
     display: flex;
     flex-direction: column;
-    row-gap: 35px;
+    row-gap: 2.5rem;
+    justify-content: space-around;
 }
 
-.image-content {
-    grid-column: 7 / span 6;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-}
-
-.profile-image {
+.about-description {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.about-image {
+    grid-column: 9 / span 3;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start
+}
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.container-card-about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+
+.card-about {
+    background: #FFF8F8;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-family: 'DMSans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.card-about h3 {
+    font-size: 1.2em;
+    color: #302E87;
+}
+
+.card-about-skill {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.8rem;
+    align-items: center;
+}
+
+.card-about-skill-icon {
+    width: 35px; /* Ajusta según necesites */
+    height: 35px;
+    background-color: #FF918C;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; /* Evita que el icono se reduzca */
 }
 
-.highlighted-text {
-    background-color: #FFE8D6;
-    padding: 0px 2px;
-    border-radius: 8px;
-}
-
-.highlighted-text2 {
-    color: #ff8a88;
-    font-size: larger;
+.card-about-skill-icon img {
+    width: 60%; /* Ajusta el tamaño del icono dentro del círculo */
+    height: auto;
+    border-radius: 0px;
 }
   
 
@@ -51,23 +92,79 @@ main h2, main h3, main p {
 }
 
 .design-process-section {
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
-    row-gap: 32px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    row-gap: 16px;
+    margin-bottom: 0;
+}
+
+.design-process-section h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.container-card-design-process {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+
+.card-design-process {
+    background: #FFF8F8;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-family: 'DMSans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.card-design-process-icon {
+    width: 50px; /* Ajusta según necesites */
+    height: 50px;
+    background-color: #FF918C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; /* Evita que el icono se reduzca */
+    margin-bottom: 1.2rem; /* Espacio entre el icono y el título */
+}
+
+.card-design-process-icon img {
+    width: 60%; /* Ajusta el tamaño del icono dentro del círculo */
+    height: auto;
+    border-radius: 0px;
+}
+
+.card-design-process h3 {
+    font-size: 1.2em;
+    color: #302E87;
+    margin-bottom: 0.1rem
+}
+
+.card-design-process h4 {
+    font-size: 1.1em;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #ff8a88;
+    font-style: oblique;
+}
+
+.card-design-process p {
+    margin-top: 0;
+    font-size: 1em;
 }
 
 .carousel-section {
     margin-bottom: 0;
-}
-
-li:not(:last-child) { 
-    margin-bottom: 6px;  
-}
-
-.text-content h1 {
-    margin: 0;
-    list-style-type: circle;
 }
 
 .skills-section {
@@ -91,38 +188,6 @@ li:not(:last-child) {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
-}
-
-.container-design-process {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    width: 100%;
-}
-.card-design-process {
-    background: white;
-    padding: 20px;
-    border-radius: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 2px solid #FF918C; 
-    text-align: left;
-    font-family: 'DMSans', sans-serif;
-}
-.card-design-process h3 {
-    font-size: 1.3em;
-    margin-bottom: 4px;
-    color: #302E87;
-}
-.card-design-process h4 {
-    font-size: 1.1em;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    color: #ff8a88;
-    font-style: oblique;
-}
-.card-design-process p {
-    margin-top: 0px;
-    font-size: 1em;
 }
 
 /* Posiciones iniciales para columnas */
