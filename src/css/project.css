@@ -292,7 +292,7 @@ video {
 
 .card-solution-image {
     width: 100%;
-    height: 150px; /* Puedes ajustar este valor con media queries si necesitas */
+    height: 200px; /* Puedes ajustar este valor con media queries si necesitas */
     overflow: hidden; 
     display: flex;
 }

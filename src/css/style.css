@@ -173,6 +173,7 @@ main {
 /* footer */
 footer {
     position: relative;
+    bottom: 0;
     grid-column: 1 / span 14;
     background-color: #A1D9F5;
     padding-top: 50px;
