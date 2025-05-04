@@ -1,4 +1,9 @@
 /* General */
+::selection {
+    background-color: #A1D9F5; /* Color del fondo de la selección */
+    color: #302E87; /* Color del texto al seleccionar */
+  }
+
 body {
     font-family: 'SpaceGrotesk', sans-serif;
     margin: 0px;
@@ -363,6 +368,10 @@ footer {
     font-weight: bold;
     text-decoration: none;
   }
+
+  .work-card:hover .work-card-view-work {
+  text-decoration: underline;
+}
 
 /* Responsive */
 @media (max-width: 1375px) {

@@ -108,6 +108,10 @@ body {
   text-decoration: none;
 }
 
+.project-card:hover .project-card-view-work {
+  text-decoration: underline;
+}
+
 .carousel-section {
   margin-top: 2%;
   margin-bottom: 0;
