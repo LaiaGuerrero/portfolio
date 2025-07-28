@@ -205,6 +205,14 @@ main h2, main h3, main p {
 
 /* Adaptación para pantallas medianas */
 @media (max-width: 1000px) {
+    .about-image {
+        display: none;
+    }
+
+    .about-text {
+        grid-column: 1 / span 11;
+    }
+
     .skills-container {
         grid-template-columns: repeat(6, 1fr); /* Cambiar a 6 columnas */
     }
