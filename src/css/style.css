@@ -204,7 +204,7 @@ footer {
     text-decoration: none;
     color: #302E87;
     transition: color 0.3s ease;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-family: 'SpaceGrotesk', sans-serif;
     font-weight: 800;
     margin-bottom: 1.2rem;
@@ -216,7 +216,7 @@ footer {
 }
 
 .footer-content p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     font-size: 1.2rem;
     line-height: 1.6;
     flex-basis: 100%;
@@ -230,6 +230,7 @@ footer {
     width: 200%;
     gap: 48px;
     margin-bottom: 0px;
+    margin-top: 2em;
     font-size: 1rem;
     font-family: 'DMSans', sans-serif;
 }
@@ -486,7 +487,22 @@ footer {
 
     .footer-content h1, .footer-content p {
         text-align: left;
-        width: 165%;
+        width: 180%;
+    }
+
+    .footer-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .footer-content p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        margin-bottom: 1em;
+    }
+
+    .footer-social-media {
+        grid-column: 2 / span 4;
+        margin-top: 2em;
     }
 
     .footer-extra-info {
@@ -498,8 +514,9 @@ footer {
         width: 100%;
         gap: 16px;
         margin-bottom: 0px;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-family: 'DMSans', sans-serif;
+        margin-top: 1em;
     }
 }
 
