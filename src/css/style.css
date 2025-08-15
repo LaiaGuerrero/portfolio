@@ -190,6 +190,11 @@ footer {
     align-items: end;
 }
 
+footer ::selection {
+    background-color: #ffffff; /* Color del fondo de la selección */
+    color: #302E87; /* Color del texto al seleccionar */
+  }
+
 .footer-content {
     grid-column: 2 / span 7;
 }
