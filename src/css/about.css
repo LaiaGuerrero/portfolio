@@ -114,6 +114,12 @@ main h2, main h3, main p {
     margin-bottom: 0.7rem;
 }
 
+@media screen and (min-width: 1440px) {
+  .container-card-design-process {
+    grid-template-columns: repeat(auto-fit, minmax(381px, 1fr));
+  }
+}
+
 .card-design-process {
     background: #FFF8F8;
     padding: 20px;

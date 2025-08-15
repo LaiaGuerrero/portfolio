@@ -39,6 +39,7 @@ body {
     justify-content: space-between;
   }
 
+
   .project-container a {
     text-decoration: none;
     color: inherit;
@@ -67,6 +68,12 @@ body {
   width: 100%;
   height: 300px;
   object-fit: cover;
+}
+
+  @media screen and (min-width: 1440px) {
+  .project-card img {
+    height: 350px;
+  }
 }
 
 .project-card-content {

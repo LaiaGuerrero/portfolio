@@ -351,6 +351,12 @@ footer ::selection {
     justify-content: flex-start;
     row-gap: 0.6rem;
   }
+
+  @media (max-width: 2000px) {
+    .work-card-image {
+        height: 210px;
+    }
+  }
   
   .tag {
     background: #ff8a88;
@@ -380,7 +386,14 @@ footer ::selection {
   text-decoration: underline;
 }
 
+
 /* Responsive */
+@media screen and (min-width: 1440px) {
+  .work-card-image {
+    height: 260px;
+  }
+}
+
 @media (max-width: 1375px) {
     .view-project-text {
         display: none;
