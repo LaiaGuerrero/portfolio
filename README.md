@@ -1,6 +1,6 @@
 # Portfolio — Laia Guerrero
 
-![Live demo](https://img.shields.io/badge/demo-online-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+![Live demo](https://LaiaGuerrero.github.io/portfolio) ![License](https://img.shields.io/badge/license-MIT-green)
 
 Short description
 -----------------
