@@ -5,7 +5,7 @@
 
 Short description
 -----------------
-Personal portfolio showcasing selected projects, case studies and contact information. Designed as a fast, accessible and responsive static site.
+Personal portfolio showcasing selected projects, case studies and contact information. Designed as a fast, accessible and responsive site.
 
 Live demo
 ---------
@@ -20,7 +20,7 @@ What you’ll find
 
 Technologies
 ------------
-- HTML5, CSS3, JavaScript (vanilla)
+- HTML5, CSS3, JavaScript
 
 
 
